@@ -1,111 +1,74 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
 <meta name="generator" content="WebSite PRO 4.3" />
-  <meta http-equiv="content-type" content="text/html; charset=iso-8859-2" />
-  <meta name="description" content="Opis" />
-  <title>Tabelki...</title>
-<style type="text/css">
-        .tabelka { text-align: center; }
-        .tabelka th { font-weight: normal; font-style: italic; }
-        
-        #tabelka2 { text-align: right; border: 1px solid black; border-right: none;}
-        #tabelka2 th {  font-weight: normal; border-right: 1px solid black;  border-bottom: 1px solid black;}
-        #tabelka2 td { border-right: 1px solid black; padding-right: 15px;}
-        
-        #tabelka3 td { padding: 10px; }
+<meta charset="utf-8" />
+<title>HTML 5 complete</title>
+<!--[if IE]>
+<script 
+src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+td {
+       text-align: center;
+}
+th {
+       text-align: right;
+}
 </style>
-  
 </head>
 <body>
-
-<table class="tabelka" cellpadding="2" cellspacing="2">
+<table width="600" cellspacing="10" rules="groups">
 <tr>
-        <th><div align="right">American<br />Chicken</div></th>
-        <th>French<br />Connection</th>
-        <th>Age<br />(months)</th>
-        <th>Weight<br />(lbs.)</th>
-        <th><div align="left">Cooking<br />Methods</div></th>
+       <td style="text-align: right;"><p><i>American<br />Chicken</i></p></td>
+       <td><p><i>French<br/>Connection</i></p></td>
+       <td><p><i>Age<br/>(Months)</i></p></td>
+       <td><p><i>Weight<br/>(lbs.)</i></p></td>
+       <td style="text-align: left;"><p><i>Cooking<br /> Methods</i></p></td>
 </tr>
 <tr>
-        <td><div align="right"><b>Squab</b></div></td>
-        <td>Poussin</td>
-        <td>2</td>
-        <td>&frac34; to 1</td>
-        <td>Broil, Grill, Roast</td>
+       <th>Squab</th>
+       <td><i>Poussin</i></td>
+       <td>2</td>
+       <td>&frac34; to 1</td>
+       <td style="text-align: left;">Broil, Grill, Roast</td>
 </tr>
 <tr>
-        <td><div align="right"><b>Broiler</b></div></td>
-        <td>Populet Nouveau</td>
-        <td>2 to 3</td>
-        <td>1&frac12; to 2&frac12;</td>
-        <td>Broil, Grill, Roast</td>
+       <th>Broiler</th>
+       <td><i>Poulet Nouveau</i></td>
+       <td>2 to 3</td>
+       <td>1&frac12; to 2&frac12;</td>
+       <td style="text-align: left;">Broil, Grill, Roast</td>
 </tr>
 <tr>
-        <td><div align="right"><b>Fryer</b></div></td>
-        <td>Populet Reine</td>
-        <td>3 to 5</td>
-        <td>2 to 3</td>
-        <td>Fry, Saut&eacute;, Roast</td>
+       <th>Fryer</th>
+       <td><i>Poulet Reine</i></td>
+       <td>3 to 5</td>
+       <td>2 to 3</td>
+       <td style="text-align: left;">Fry, Saut&#233;, Roast</td>
+</tr>
+<tr>
+       <th>Roaster</th>
+       <td><i>Poularde</i></td>
+       <td>5&frac12; to 9</td>
+       <td>Over 3</td>
+       <td style="text-align: left;">Roast, Poach, Friccasse</td>
+</tr>
+<tr>
+       <th>Fowl</th>
+       <td><i>Poule de l'Ann&#233;e</i></td>
+       <td>10 to 12</td>
+       <td>Over 3</td>
+       <td style="text-align: left;">Stew, Friccasse</td>
+</tr>
+<tr>
+       <th>Rooster</th>
+       <td><i>Coq</i></td>
+       <td>Over 12</td>
+       <td>Over 3</td>
+       <td style="text-align: left;">Soup stock, Forcemeat</td>
 </tr>
 </table>
-
-
-<br /><br /><br />
-
-
-<table id="tabelka2" cellpadding="0" cellspacing="0">
-        <tr>
-                <th width="90px"><center>Year</center></th>
-                <th width="130px"><center>World Population</center></th>
-        </tr>
-        <tr>
-                <td>800 B.C.</td><td><div align="right">5,000,000</div></td>
-        </tr>
-        <tr>
-                <td>50 A.D.</td><td>200,000,000</td>
-        </tr>
-        <tr>
-                <td>1650 A.D.</td><td>500,000,000</td>
-        </tr>
-</table>
-
-<br /><br /><br /><br /><br />
-<!-- tabelka 3 -->
-
-<table id="tabelka3" cellpadding="0" cellspacing="0">
-<tr>
-        <td></td>
-        <td></td>
-        <td style="border-bottom:1px solid black;">J. H. Bohning, 1838</td>
-</tr>
-<tr>
-        <td></td>
-        <td style="border-bottom:1px solid black; border-right:1px solid black;">M. J. H. Bohning, 1882</td>
-        <td></td>
-</tr>
-<tr valign="bottom">
-        <td rowspan="2" style="border-right:1px solid black; border-bottom:1px solid black;">L. M. Bohning, 1912</td>
-        <td></td>
-        <td style="border-left:1px solid black; border-bottom:1px solid black;">M. D. Blase, 1840</td>
-</tr>
-<tr>
-        <td></td>
-        <td style="border-bottom:1px solid black;">E. F. Ehlert, 1845</td>
-</tr>
-<tr>
-        <td></td>
-        <td style="border-left: 1px solid black; border-bottom: 1px solid black; border-right:1px solid black;">P. A. M. Ehlert, 1884</td>
-        <td></td>
-</tr>
-<tr>
-        <td></td>
-        <td></td>
-        <td style="border-bottom:1px solid black; border-left:1px solid black;">C. L. Wischmeyer, 1850</td>
-        
-</tr>
-</table>
-
-
+<p></p>
 </body>
 </html>
